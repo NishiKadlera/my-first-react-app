@@ -4,8 +4,8 @@ import Functioncomponent from "./components/Functioncomponent";
 import ClassCompBasic from "./components/classcomponent";
 import Details from "./components/nestedcomp";
 import emp from "./Data/EmpDetails.json";
-import Comp from "./components/Comp";
-
+import HomeCompBasic from "./components/HomeComponent";
+import SCart from "./components/SCart";
 function App() {
   return (
     <div className="App">
@@ -33,17 +33,20 @@ function App() {
         </a>
       </header>
 
-      <div className="wrapper">
-        <h1>Welcome to Functional Component</h1>
+      <div className="wrapper">        
+        <h1>Functional Component</h1>
         <Functioncomponent />
-        <h1>Welcome to className Component</h1>
+        <h1>Class Component</h1>
         <ClassCompBasic />
-        <h1>Welcome to Nested component</h1>
-        <Details />
-        <h1>Welcome to Comp</h1>
-        <Comp></Comp>
+        <h1>Nested component</h1>
+        <Details /><br></br>
+        <h1>Props Concept</h1>
+        <HomeCompBasic name="Nischitha" Department="IT"/><br></br>
+        <h1>useState concept</h1>
+        <SCart/>
         <h3>List of Employees</h3>
         <hr></hr>
+        
         {/* <table className="table">
           <thead>
            <tr>

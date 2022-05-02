@@ -9,7 +9,12 @@ export class Details extends React.Component
 {
     render()
     {
-        return <span>Employee Name is <Employee/></span>;
+        return (
+            <div>
+               <span>Employee Name is <b><Employee/></b></span> <br></br>
+            </div>
+        
+        );
     }
 }
 export default Details;

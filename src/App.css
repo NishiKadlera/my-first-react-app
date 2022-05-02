@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.wrapper{
+  text-align: left;
+}
 
 .App-logo {
   
@@ -40,7 +43,4 @@
     transform: rotate(360deg);
   }
 }
-.vertical {
-  border-left: 5px solid black;
-  height: 200px;
-}
+
