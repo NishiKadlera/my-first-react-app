@@ -15,6 +15,7 @@ function SCart()
     return (
     <div>
         <center>
+         <h1>Use State</h1>   
         <h3>Quantity: {Qty}</h3>
         <button className="btn btn-success" onClick={increment}>+</button> &nbsp;
         <button className="btn btn-danger" onClick={decrement}>-</button>

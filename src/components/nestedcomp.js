@@ -11,6 +11,7 @@ export class Details extends React.Component
     {
         return (
             <div>
+                <h1>Nested Components</h1>
                <span>Employee Name is <b><Employee/></b></span> <br></br>
             </div>
         
